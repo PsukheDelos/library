@@ -2,3 +2,8 @@
 \BOOKMARK [1][-]{section.2}{Language Design Background}{}% 2
 \BOOKMARK [1][-]{section.3}{MetaEdit+}{}% 3
 \BOOKMARK [1][-]{section.4}{Library Language}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Objects}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Relationships/Roles}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Abstract Syntax}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Discussion about Tool}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Evaluation Version}{section.5}% 9

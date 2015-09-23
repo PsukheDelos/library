@@ -31,7 +31,27 @@ Occurrence: constraint surrounding the number of a unique objects may appear in 
 Uniqueness: uniqueness constraints for property values such as ID etc
 Port: No fucking idea what the shit port was for, probably something to do with ships.
 Creating and applying constraints allows further development and enrichment of DSL semantics.  
-\includegraphics{image00}
+\subsection{Objects}
+\includegraphics[width=0.5\textwidth]{obj_book}
+\includegraphics[width=0.5\textwidth]{obj_author}
+\includegraphics[width=0.5\textwidth]{obj_librarian}
+\includegraphics[width=0.5\textwidth]{obj_patron}
+
+\subsection{Relationships/Roles}
+\includegraphics[width=0.5\textwidth]{rel_wrote}
+\includegraphics[width=0.5\textwidth]{rel_reserve}
+\includegraphics[width=0.5\textwidth]{rel_records}
+
+
+\subsection{Abstract Syntax}
+\section{Discussion about Tool}
+We undertook an initial survey both of the tools recommended to us and those identified through literature review (a complete lie but saying ‘we googled it’ sucks). 
+We rejected a number of tools such as GME due to platform limitations. These tools were only usable within a Windows environment which was unsuitable for our team. Other alternatives such as DOME were rejected due to no longer being maintained and thus unavailable. AtomPM was no longer being maintained and was dependent on legacy versions of NPM packages which rendered it uninstallable, unstable and unusable. Eclipse plugin tools such as Marama and XMF similarly were dependent on legacy versions of Eclipse IDE. The Marama modelling tool was ‘end of lifed’ in 2012 which had the consequence of non existent support or help resources. XMF is no longer maintained and is currently not supported in any modern version of Eclipse and while XMF will load, it no longer functions in any usable way. 
+Other tools are available, however, the majority require a licence to be purchased in order to access any meaningful functionality. With these factors in mind we selected to use the only remaining option which was MetaEdit+.
+\subsection{Evaluation Version}
+In using MetaEdit+ we encountered a number of limitations that complicated our development processes. Specifically the limited functionality available through the evaluation license significantly reduced our efficiency as a team. In order to work effectively as a group a concurrent working environment is imperative. In MetaEdit+ team collaboration functionality is limited to paid licenses. In an effort to circumvent this limitation we attempted to implement a GIT workflow, however, as the files used by MetaEdit+ to maintain a project are binaries this was unsuccessful. Had we been able to work concurrently and collaboratively our workflow would have been considerably smoother and more productive. MetaEdit+ uses a kind of version control workflow internally, using the concept of repositories and commits to manage the development of a model. Had we been able to take advantage of this the learning and prototyping phase might have yielded more in the way of usable artifacts. As it transpired the majority of our learning and prototyping artifacts were unusable as the merging of projects was something our licence did not allow.
+
+
 \bibliographystyle{acm}
 \bibliography{mybib}
 \end{document}
