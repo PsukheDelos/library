@@ -19,7 +19,7 @@ The way in which DSL elements and the roles and relationships between them are d
   \label{fig:objcreate}
 \end{figure}
 
-Relationships and Roles must be then be \emph{bound} to Objects. The interface for this process is less clear as shown in Figure~\ref{fig:bindings}. The intuition here is that relationships are bound to a pair of objects via a single role. The reality is that a role is required to describe each end of a relationship between Objects. \par
+Relationships and Roles must then be \emph{bound} to Objects. The interface for this process is less clear as shown in Figure~\ref{fig:bindings}. The intuition here is that relationships are bound to a pair of objects via a single role. The reality is that a role is required to describe each end of a relationship between Objects. \par
 
   \begin{figure}[h]
     \centering
@@ -39,8 +39,35 @@ The error messages that propagate through the graph interface are indistinct and
     \label{fig:error}
   \end{figure}
 
+The final limitation of Meta Edit+ was its inability to easily produce Transformations.  It does have the ability to use SOAP, Web Services, or a .NET API to transform your DSM to testing tools or to Models in other tools.  The easiest way to accomplish a transformation for a new user is to use MetaEdit+'s built in Generator option.  This allows a user to do simple transformations in that one can analyse / generate reports about their DSL and currently modelled implementation.\par 
+In our case, we are able to check whether a modeller using our DSL has met the requirements of our system.  We created a Test Script object that had a Test list.  Modellers can choose which test to run, or simply run all of the tests as shown in Figure~\ref{fig:transform_script}.\par
+
+  \begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{images/transform_script.png}
+    \caption{Users can select which Model Validation tests they would like to run.}
+    \label{fig:transform_script}
+  \end{figure} 
+  
+When a Test Script is present in the model and a test has been selected, the modeller may then choose to run the Generator Validate Model (Figure~\ref{fig:transform_code}).\par
+  \begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{images/transform_code.png}
+    \caption{Validate Model Generator}
+    \label{fig:transform_code}
+  \end{figure} 
+Validate Model then runs through the user created model and checks whether there are appropriate instances of each type of object, whether each object has appropriate relationships, and whether there are any disconnected objects that are either unnecessary or have been overlooked in the implementation of the library system.  The results of these tests are output to a report that tells the user whether there model meets the criteria for being a proper library model as you can see in Figure~\ref{fig:transform_report}.\par
+  \begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{images/transform_all.png}
+    \caption{Validate Model Generator Report}
+    \label{fig:transform_report}
+  \end{figure} 
+
 In contrast to some of the negative aspects of the interface design and work flow issues Meta Edit+ did have some advantages.
 
-MetaEdit+ provide cross platform support, this means that team members are not limited to one platform, and can choose to create DSL’s on their platform of choice. This is in contrast to solutions mentioned earlier in this section that only supported Windows environments. \par
+MetaEdit+ provides cross platform support, this means that team members are not limited to one platform, and can choose to create DSL’s on their platform of choice. This is in contrast to solutions mentioned earlier in this section that only supported Windows environments. \par
 
 Another major advantage in MetaEdit+ was its community. The MetaEdit+ forums are fairly active and one could expect an answer to any question within a reasonable time frame.  We also found, even in our trial version, that the development team themselves were all too happy to help. Their support staff pre-emptively email users offering help and guidance in the use of their tool.
+
+Our initial investigation into MetaEdit+ seemed to suggest that it was an ideal tool for our purposes.  However, we quickly learned that the overall workflow of MetaEdit+ has a steep learning curve.  As we progressed, the workflow did become easier, but this was only with research, practice, and time.  While experts may find this tool incredibly handy, novices will continue to struggle as it hasn't quite made the process intuitive.  MetaEdit+ shows a lot of promise, and although it has been around for years, it still has not quite cracked the winning formula.  
