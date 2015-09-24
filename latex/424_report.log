@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.20)  24 SEP 2015 17:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.20)  24 SEP 2015 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -273,74 +273,69 @@ Missing character: There is no ™ in font cmr12!
 \openout2 = `library_language.aux'.
 
  (./library_language.tex
-<images/obj_book.png, id=66, 346.29375pt x 512.91624pt>
+<images/obj_book.png, id=79, 346.29375pt x 512.91624pt>
 File: images/obj_book.png Graphic file (type png)
 
 <use images/obj_book.png>
 Package pdftex.def Info: images/obj_book.png used on input line 9.
 (pdftex.def)             Requested size: 195.0pt x 288.83556pt.
 
-<images/obj_author.png, id=68, 309.155pt x 163.61125pt>
+<images/obj_author.png, id=81, 309.155pt x 163.61125pt>
 File: images/obj_author.png Graphic file (type png)
 
 <use images/obj_author.png>
-Package pdftex.def Info: images/obj_author.png used on input line 10.
+Package pdftex.def Info: images/obj_author.png used on input line 15.
 (pdftex.def)             Requested size: 195.0pt x 103.20044pt.
 
-<images/obj_librarian.png, id=69, 297.11pt x 163.61125pt>
+<images/obj_librarian.png, id=82, 297.11pt x 163.61125pt>
 File: images/obj_librarian.png Graphic file (type png)
 
 <use images/obj_librarian.png>
-Package pdftex.def Info: images/obj_librarian.png used on input line 11.
+Package pdftex.def Info: images/obj_librarian.png used on input line 16.
 (pdftex.def)             Requested size: 195.0pt x 107.38708pt.
 
-<images/obj_patron.png, id=70, 297.11pt x 133.49875pt>
+<images/obj_patron.png, id=83, 297.11pt x 133.49875pt>
 File: images/obj_patron.png Graphic file (type png)
 
 <use images/obj_patron.png>
-Package pdftex.def Info: images/obj_patron.png used on input line 12.
+Package pdftex.def Info: images/obj_patron.png used on input line 17.
 (pdftex.def)             Requested size: 195.0pt x 87.62257pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 9--13
-[] []
+Overfull \hbox (26.11084pt too wide) in paragraph at lines 15--18
+[][] []
  []
 
+<images/rel_wrote.png, id=84, 1078.0275pt x 277.035pt>
+File: images/rel_wrote.png Graphic file (type png)
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 9--13
-[] [] 
+<use images/rel_wrote.png>
+Package pdftex.def Info: images/rel_wrote.png used on input line 24.
+(pdftex.def)             Requested size: 195.0pt x 50.10931pt.
+
+<images/rel_reserve.png, id=85, 1051.93pt x 268.00125pt>
+File: images/rel_reserve.png Graphic file (type png)
+
+<use images/rel_reserve.png>
+Package pdftex.def Info: images/rel_reserve.png used on input line 25.
+(pdftex.def)             Requested size: 195.0pt x 49.6776pt.
+
+<images/rel_records.png, id=86, 1097.09875pt x 308.15125pt>
+File: images/rel_records.png Graphic file (type png)
+
+<use images/rel_records.png>
+Package pdftex.def Info: images/rel_records.png used on input line 26.
+(pdftex.def)             Requested size: 195.0pt x 54.76892pt.
+
+Overfull \hbox (26.32843pt too wide) in paragraph at lines 23--27
+\OT1/cmr/m/n/12 act. [] []
  []
 
 [5
 
 
-] <images/rel_wrote.png, id=75, 1078.0275pt x 277.035pt>
-File: images/rel_wrote.png Graphic file (type png)
-
-<use images/rel_wrote.png>
-Package pdftex.def Info: images/rel_wrote.png used on input line 15.
-(pdftex.def)             Requested size: 195.0pt x 50.10931pt.
-
-<images/rel_reserve.png, id=76, 1051.93pt x 268.00125pt>
-File: images/rel_reserve.png Graphic file (type png)
-
-<use images/rel_reserve.png>
-Package pdftex.def Info: images/rel_reserve.png used on input line 16.
-(pdftex.def)             Requested size: 195.0pt x 49.6776pt.
-
-<images/rel_records.png, id=77, 1097.09875pt x 308.15125pt>
-File: images/rel_records.png Graphic file (type png)
-
-<use images/rel_records.png>
-Package pdftex.def Info: images/rel_records.png used on input line 17.
-(pdftex.def)             Requested size: 195.0pt x 54.76892pt.
-)
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 15--21
-[] []
- []
-
-[6 <./images/obj_book.png> <./images/obj_author.png> <./images/obj_librarian.pn
-g> <./images/obj_patron.png>] [7 <./images/rel_wrote.png> <./images/rel_reserve
-.png> <./images/rel_records.png>]
+ <./images/obj_author.png> <./images/obj_librarian.png> <./images/obj_patron.pn
+g>] [6 <./images/obj_book.png>]) [7 <./images/rel_wrote.png> <./images/rel_rese
+rve.png> <./images/rel_records.png>]
 \openout2 = `abstract_syntax.aux'.
 
  (./abstract_syntax.tex) [8
@@ -349,17 +344,19 @@ g> <./images/obj_patron.png>] [7 <./images/rel_wrote.png> <./images/rel_reserve
 ]
 \openout2 = `discussion.aux'.
 
- (./discussion.tex
+
+(./discussion.tex
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ˜ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[9
+ [9
 
 
-] <images/entity_creation.png, id=103, 700.6175pt x 216.81pt>
+]
+<images/entity_creation.png, id=117, 700.6175pt x 216.81pt>
 File: images/entity_creation.png Graphic file (type png)
 
 <use images/entity_creation.png>
@@ -370,14 +367,14 @@ Overfull \hbox (30.37373pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-[10] <images/bindings.png, id=110, 941.5175pt x 270.00874pt>
+[10] <images/bindings.png, id=124, 941.5175pt x 270.00874pt>
 File: images/bindings.png Graphic file (type png)
 
 <use images/bindings.png>
 Package pdftex.def Info: images/bindings.png used on input line 26.
 (pdftex.def)             Requested size: 376.60033pt x 108.00157pt.
  [11 <./images/entity_creation.png> <./images/bindings.png>] <images/entity_err
-or.png, id=118, 626.34pt x 129.48375pt>
+or.png, id=132, 626.34pt x 129.48375pt>
 File: images/entity_error.png Graphic file (type png)
 
 <use images/entity_error.png>
@@ -402,27 +399,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `424_report.out' has not changed.
-(rerunfilecheck)             Checksum: E8F989B538EE4E47BB0B7E372805B211;557.
+(rerunfilecheck)             Checksum: 8A74A35AFB510CC6A06858ECD5EF4CFA;724.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 5214 strings out of 493315
- 78425 string characters out of 6137904
- 158204 words of memory out of 5000000
- 8579 multiletter control sequences out of 15000+600000
+ 5222 strings out of 493315
+ 78536 string characters out of 6137904
+ 158253 words of memory out of 5000000
+ 8583 multiletter control sequences out of 15000+600000
  7018 words of font info for 25 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,6n,30p,873b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,30p,857b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 424_report.pdf (12 pages, 369645 bytes).
+Output written on 424_report.pdf (12 pages, 370717 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
