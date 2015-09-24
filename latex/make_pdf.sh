@@ -1,4 +1,4 @@
 #!/bin/bash
-pdflatex $1
-bibtex $1
-pdflatex $1
+pdflatex 424_report.tex
+bibtex meta_bib
+pdflatex 424_report.tex
