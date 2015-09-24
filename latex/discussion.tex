@@ -1,7 +1,46 @@
 \section{Discussion}
-We undertook an initial survey both of the tools recommended to us and those identified through literature review (a complete lie but saying ‘we googled it’ sucks). 
-We rejected a number of tools such as GME due to platform limitations. These tools were only usable within a Windows environment which was unsuitable for our team. Other alternatives such as DOME were rejected due to no longer being maintained and thus unavailable. AtomPM was no longer being maintained and was dependent on legacy versions of NPM packages which rendered it uninstallable, unstable and unusable. Eclipse plugin tools such as Marama and XMF similarly were dependent on legacy versions of Eclipse IDE. The Marama modelling tool was ‘end of lifed’ in 2012 which had the consequence of non existent support or help resources. XMF is no longer maintained and is currently not supported in any modern version of Eclipse and while XMF will load, it no longer functions in any usable way. 
-Other tools are available, however, the majority require a licence to be purchased in order to access any meaningful functionality. With these factors in mind we selected to use the only remaining option which was MetaEdit+.
+This section will detail our process of meta modelling tool selection and the reasons for rejecting alternatives. We will discuss and critique the strengths and weaknesses of our selected tool and how these influenced our development process.\par
+\subsection{Tool Selection}
+We undertook an initial survey both of the tools recommended to us and those identified through literature review and independent research. Of the solutions we found only a small number were still available and even fewer suitable for our project.\par
+We rejected a number of tools such as GME due to platform limitations. These tools were only usable within a Windows environment which was unsuitable for our team. Other alternatives such as DOME were rejected due to no longer being maintained and thus unavailable. AtomPM was no longer being maintained and was dependent on legacy versions of NPM packages which rendered it unable to be installed, unstable and unusable.\par Eclipse plugin tools such as Marama and XMF similarly were dependent on legacy versions of Eclipse IDE. The Marama modelling tool was ‘end of lifed’ in 2012 which had the consequence of non existent support or help resources. XMF is no longer maintained and is currently not supported in any modern version of Eclipse and while XMF will load, it no longer functions in any usable way. \par
+Other meta modelling tools are available, however, the majority require a licence to be purchased in order to access any meaningful functionality. With these factors in mind we selected to use the only remaining option which was MetaEdit+.
 
-\subsection{Evaluation Version}
-In using MetaEdit+ we encountered a number of limitations that complicated our development processes. Specifically the limited functionality available through the evaluation license significantly reduced our efficiency as a team. In order to work effectively as a group a concurrent working environment is imperative. In MetaEdit+ team collaboration functionality is limited to paid licenses. In an effort to circumvent this limitation we attempted to implement a GIT workflow, however, as the files used by MetaEdit+ to maintain a project are binaries this was unsuccessful. Had we been able to work concurrently and collaboratively our workflow would have been considerably smoother and more productive. MetaEdit+ uses a kind of version control workflow internally, using the concept of repositories and commits to manage the development of a model. Had we been able to take advantage of this the learning and prototyping phase might have yielded more in the way of usable artifacts. As it transpired the majority of our learning and prototyping artifacts were unusable as the merging of projects was something our licence did not allow.
+\subsection{Critique}
+During our use of MetaEdit+ we encountered a number of limitations that complicated our development processes. Specifically the limited functionality available through the evaluation license significantly reduced our efficiency as a team. In order to work effectively as a group a concurrent working environment is imperative.\par
+In MetaEdit+ team collaboration functionality is limited to paid licenses. In an effort to circumvent this limitation we attempted to implement a GIT work flow, however, as the files used by MetaEdit+ to maintain a project are binaries this was unsuccessful. Had we been able to work concurrently and collaboratively our work flow would have been considerably smoother and more productive.\par
+MetaEdit+ uses a kind of version control work flow internally, using the concept of repositories and commits to manage the development of a model. Had we been able to take advantage of this the learning and prototyping phase might have yielded more in the way of usable artefacts. As it transpired the majority of our learning and prototyping artefacts were unusable as the merging of projects was something our licence did not allow.
+
+The way in which DSL elements and the roles and relationships between them are declared is seemingly disconnected from the primary method made available for visualizing the DSL. Similarly the workflow of creating an object, developing relationships and roles between that and existing objects is complex and to a degree opaque. The interface for creating objects, relationships and roles is shown in Figure~\ref{fig:objcreate} is reasonably clear and concise, however, the connections between these parts are not. 
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.6]{images/entity_creation.png}
+  \caption{The Meta Edit+ entity creation interface.}
+  \label{fig:objcreate}
+\end{figure}
+
+Relationships and Roles must be then be \emph{bound} to Objects. The interface for this process is less clear as shown in Figure~\ref{fig:bindings}. The intuition here is that relationships are bound to a pair of objects via a single role. The reality is that a role is required to describe each end of a relationship between Objects. \par
+
+  \begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{images/bindings.png}
+    \caption{The Meta Edit+ bindings dialogue.}
+    \label{fig:bindings}
+  \end{figure}
+
+Further complicating this process is the work flow between the graph representation and the bindings declarations. Relationships, roles and the bindings therein are not editable or definable through the graph interface. To define or redefine properties of a relationship or role you are required to exit the \emph{graph view}, enter the \emph{graph tool}, navigate to the bindings window, make the necessary edits and reverse these prior steps to view the result of you action. This makes the process of refining a DSL somewhat arduous and time consuming.\par The provision of editing functionality through the graph view directly would make the process considerably faster and additionally speak more eloquently to the connection between a language element and its representation.\par
+Communication to the user concerning the Meta Edit+ internal syntax could be more effective.
+The error messages that propagate through the graph interface are indistinct and open to interpretation. They offer little in the way of detail or guidance, functioning more to alert the user to having done something wrong rather than how that might be rectified as shown in Figure~\ref{fig:error}. \par
+
+  \begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.5]{images/entity_error.png}
+    \caption{Graph interface error messages can be difficult to interpret.}
+    \label{fig:error}
+  \end{figure}
+
+In contrast to some of the negative aspects of the interface design and work flow issues Meta Edit+ did have some advantages.
+
+MetaEdit+ provide cross platform support, this means that team members are not limited to one platform, and can choose to create DSL’s on their platform of choice. This is in contrast to solutions mentioned earlier in this section that only supported Windows environments. \par
+
+Another major advantage in MetaEdit+ was its community. The MetaEdit+ forums are fairly active and one could expect an answer to any question within a reasonable time frame.  We also found, even in our trial version, that the development team themselves were all too happy to help. Their support staff pre-emptively email users offering help and guidance in the use of their tool.
