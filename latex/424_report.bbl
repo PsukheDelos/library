@@ -1,9 +1,23 @@
 \begin{thebibliography}{1}
 
-\bibitem{1_wang_2008}
-{\sc Wang, G.}
-\newblock {\em The ChucK Audio Programming Language: A Strongly-timed and
-  On-the-fly Environ/mentality}.
-\newblock PhD thesis, Princeton University, Sep 2008.
+\bibitem{erwig2014semantics}
+{\sc Erwig, M., and Walkingshaw, E.}
+\newblock Semantics-driven dsl design.
+\newblock {\em Computational Linguistics: Concepts, Methodologies, Tools, and
+  Applications: Concepts, Methodologies, Tools, and Applications\/} (2014),
+  251.
+
+\bibitem{karsai2014design}
+{\sc Karsai, G., Krahn, H., Pinkernell, C., Rumpe, B., Schindler, M., and
+  V{\"o}lkel, S.}
+\newblock Design guidelines for domain specific languages.
+\newblock {\em arXiv preprint arXiv:1409.2378\/} (2014).
+
+\bibitem{voelter2013dsl}
+{\sc Voelter, M., Benz, S., Dietrich, C., Engelmann, B., Helander, M., Kats,
+  L.~C., Visser, E., and Wachsmuth, G.}
+\newblock {\em DSL engineering: Designing, implementing and using
+  domain-specific languages}.
+\newblock dslbook. org, 2013.
 
 \end{thebibliography}
