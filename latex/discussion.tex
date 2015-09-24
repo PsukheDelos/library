@@ -2,7 +2,7 @@
 This section will detail our process of meta modelling tool selection and the reasons for rejecting alternatives. We will discuss and critique the strengths and weaknesses of our selected tool and how these influenced our development process.\par
 \subsection{Tool Selection}
 We undertook an initial survey both of the tools recommended to us and those identified through literature review and independent research. Of the solutions we found only a small number were still available and even fewer suitable for our project.\par
-We rejected a number of tools such as GME due to platform limitations. These tools were only usable within a Windows environment which was unsuitable for our team. Other alternatives such as DOME were rejected due to no longer being maintained and thus unavailable. AtomPM was no longer being maintained and was dependent on legacy versions of NPM packages which rendered it unable to be installed, unstable and unusable.\par Eclipse plugin tools such as Marama and XMF similarly were dependent on legacy versions of Eclipse IDE. The Marama modelling tool was ‘end of lifed’ in 2012 which had the consequence of non existent support or help resources. XMF is no longer maintained and is currently not supported in any modern version of Eclipse and while XMF will load, it no longer functions in any usable way. \par
+We rejected a number of tools such as GME due to platform limitations. These tools were only usable within a Windows environment which was unsuitable for our team. Other alternatives such as DOME were rejected due to no longer being maintained and thus unavailable. AtomPM was no longer being maintained and was dependent on legacy versions of NPM packages which rendered it unable to be installed, unstable and unusable.\par Eclipse plugin tools such as Marama and XMF similarly were dependent on legacy versions of Eclipse IDE. The Marama modelling tool was `end of lifed' in 2012 which had the consequence of non existent support or help resources. XMF is no longer maintained and is currently not supported in any modern version of Eclipse and while XMF will load, it no longer functions in any usable way. \par
 Other meta modelling tools are available, however, the majority require a licence to be purchased in order to access any meaningful functionality. With these factors in mind we selected to use the only remaining option which was MetaEdit+.
 
 \subsection{Critique}
@@ -14,7 +14,7 @@ The way in which DSL elements and the roles and relationships between them are d
 
 \begin{figure}
   \centering
-  \includegraphics[scale=0.6]{images/entity_creation.png}
+  \includegraphics[width=0.8\textwidth]{images/entity_creation.png}
   \caption{The Meta Edit+ entity creation interface.}
   \label{fig:objcreate}
 \end{figure}
@@ -23,7 +23,7 @@ Relationships and Roles must then be \emph{bound} to Objects. The interface for 
 
   \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{images/bindings.png}
+    \includegraphics[width=0.8\textwidth]{images/bindings.png}
     \caption{The Meta Edit+ bindings dialogue.}
     \label{fig:bindings}
   \end{figure}
@@ -34,7 +34,7 @@ The error messages that propagate through the graph interface are indistinct and
 
   \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.5]{images/entity_error.png}
+    \includegraphics[width=0.8\textwidth]{images/entity_error.png}
     \caption{Graph interface error messages can be difficult to interpret.}
     \label{fig:error}
   \end{figure}
